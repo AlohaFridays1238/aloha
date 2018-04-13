@@ -1,0 +1,54 @@
+{
+  "beaches": [
+  {
+    "id": 1,
+    "name": "Pink Sands Beach, Harbour Island, Bahamas",
+    "imageURL": "https://thumbor.forbes.com/thumbor/960x0/smart/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F447571567%2F960x0.jpg%3Ffit%3Dscale"
+  },
+  {
+    "id": 2,
+    "name": "Reynisfjara Beach, Iceland",
+    "imageURL": "https://thumbor.forbes.com/thumbor/960x0/smart/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F758412898%2F960x0.jpg%3Ffit%3Dscale"
+  },
+  {
+    "id": 3,
+    "name": "Anse Lazio, Praslin, Seychelles",
+    "imageURL": "https://thumbor.forbes.com/thumbor/960x0/smart/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F750944206%2F960x0.jpg%3Ffit%3Dscale"
+  },
+  {
+    "id": 4,
+    "name": "Saltwhistle Bay",
+    "imageURL": "https://thumbor.forbes.com/thumbor/960x0/smart/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F124188529%2F960x0.jpg%3Ffit%3Dscale"
+  },
+  {
+    "id": 5,
+    "name": "Flamenco Beach, Culebra, Puerto Rico",
+    "imageURL": "https://thumbor.forbes.com/thumbor/960x0/smart/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F530785873%2F960x0.jpg%3Ffit%3Dscale"
+  },
+  {
+    "id": 6,
+    "name": "Anse Source d’Argent, La Digue, Seychelles",
+    "imageURL": "https://thumbor.forbes.com/thumbor/960x0/smart/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F761568439%2F960x0.jpg%3Ffit%3Dscale"
+  },
+  {
+    "id": 7,
+    "name": "Horseshoe Bay, Bermuda",
+    "imageURL": "https://thumbor.forbes.com/thumbor/960x0/smart/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F731782639%2F960x0.jpg%3Ffit%3Dscale"
+  },
+  {
+    "id": 8,
+    "name": "Honokalani Beach, Maui, Hawaii",
+    "imageURL": "https://thumbor.forbes.com/thumbor/960x0/smart/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F5768419%2F960x0.jpg%3Ffit%3Dscale"
+  },
+  {
+    "id": 9,
+    "name": "Los Roques, Venezuela",
+    "imageURL": "https://thumbor.forbes.com/thumbor/960x0/smart/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F741734596%2F960x0.jpg%3Ffit%3Dscale"
+  },
+  {
+    "id": 10,
+    "name": "Long Beach, Vancouver Island, Canada",
+    "imageURL": "https://thumbor.forbes.com/thumbor/960x0/smart/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F761258191%2F960x0.jpg%3Ffit%3Dscale"
+  },
+    ]
+}
