@@ -1,12 +1,5 @@
-<<<<<<< HEAD
-=======
-.placeholderForHeaderTxt {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-}
 
->>>>>>> d8df07553757c8c9422550fd6a4959e349822415
+
 html {
     /* background: url("http://www.sleepsure.co.za/wp-content/uploads/2016/06/main_img-awards.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -34,11 +27,9 @@ html {
         background-color: black;
   }
 
-body {
->>>>>>> d8df07553757c8c9422550fd6a4959e349822415
-}
 
-.container {
+
+html {
     background: url("http://www.sleepsure.co.za/wp-content/uploads/2016/06/main_img-awards.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
@@ -47,19 +38,15 @@ body {
 .content {
     display: flex;
     padding: 20px;
-    /* background-color: palegreen; */
 }
 .appName {
     font-size: 100px;
     color: chartreuse;
-    display: flex;
-    flex-direction: ;
     text-shadow: 1px 1px 2px orangered, 0 0 1em blue, 0 0 0.2em white;
     font-family: 'Great Vibes', cursive;
-    /* background-color: chartreuse; */
-    width: 75%;
     margin: 0px;
     padding: 0px;
+    text-align: center;
 }
 .rightSideText {
     width: 25%;
