@@ -19,9 +19,13 @@ function submitForm(event){
     alohaVacation.append(img1)
 
 
-    // setTimeout( function (){alohaVacation.removeChild(doggy)}, 900)
+    // setTimeout(remove, 900)
     // console.log('aloha',alohaVacation)
         }
+
+    // function remove () {
+
+    // }
           
 
     
