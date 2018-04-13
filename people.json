@@ -1,0 +1,34 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "name": "Claus",
+      "picture": "./assets/alohadog.png"
+    },
+    {
+      "id": 2,
+      "name": "Twice The Fun",
+      "picture": "./assets/alohatwo.png"
+    },
+    {
+      "id": 3,
+      "name": "Handsome Adrian",
+      "picture": "./assets/biggeradrian.png"
+    },
+    {
+      "id": 4,
+      "name": "Groupie",
+      "picture": "./assets/char.png"
+    },
+    {
+      "id": 5,
+      "name": "Baby Hips",
+      "picture": "./assets/IMDONE.png"
+    },
+    {
+      "id": 6,
+      "name": "Man & Dog",
+      "picture": "./assets/man&dog.png"
+    }
+  ]
+}
