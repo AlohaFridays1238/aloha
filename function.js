@@ -1,5 +1,10 @@
-const vacation = document.getElementById('characters') 
-const section = document.getElementsByClassName('vacationpicture')
+const alohaVacation = document.getElementsByClassName('vacationpicture')[0]
+const picture = document.getElementsByClassName('location')[0]
+const url = "./beaches.json";
+
+// "./listings.json";
+
+// const data = beaches.json"
 
 // function createNode(element) {
 //     return document.createElement(element) 
@@ -8,34 +13,63 @@ const section = document.getElementsByClassName('vacationpicture')
 //   function append(parent, el) {
 //     return parent.appendChild(el) 
 //   }
+
+function createVacay(data) {
+  data.beaches.forEach(function(item) {
+    var option = document.createElement('option');
+    option.text = item.name
+    option.value = item.id
+    // option.id = item.imageURL
+    picture.appendChild(option)
+  })
+}
+
+function appendPicture(data){
+  console.log('insideAppend')
+  console.log('url', data.beaches[0].imageURL)
+
+  var img = document.createElement("img");
+
+  // let img = createNode('img')
+  console.log('imagefirst', img)
+
+  img.src = data.beaches[0].imageURL
+
+  console.log('imagesecond', img)
+
+  alohaVacation.append(img)
+}
   
+// function append(parent, el) {
+//   return parent.appendChild(el) 
+// }
+// function createVacay(){
+// data.
+
+
+// <option value="volvo">Volvo</option>
+
+// }
+  
+
+
   fetch(url) 
     .then(resp => resp.json()) 
   
     .then(function(data) {
-    //   let characters = data.data 
-    //   return characters.map(function(character) { 
-    //     let li = createNode('li') 
-    //       img = createNode('img')
-    //       span = createNode('span')
-    //     p = createNode('p')
-    //     a = createNode('a')
-    //     img.src = character.imageURL 
-    //     span.innerHTML = character.name + ' ' + character.phone 
-    //     p.innerHTML = character.message
-    //     a.innerHTML = 'Leave ' + character.name + ' a message'
-    //     a.href = 'contact.html?character=' + character.name
-    //     append(li, img) 
-    //     append(li, span)
-    //     append(li, p)
-    //     append(li, a)
-    //     append(ul, li)
-      })
-    })
+        console.log('before')
+        console.log('data',data)
+        console.log('name', data.beaches[0])
+        createVacay(data)
+        appendPicture(data)
+          })
+    
   
     .catch(function(error) {
       console.log('error')
     });
+
+    
   
 
 
