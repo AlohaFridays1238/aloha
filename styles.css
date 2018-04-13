@@ -4,3 +4,27 @@
     top: 8px;
     left: 16px;
 }
+
+html {
+    background: url("http://www.sleepsure.co.za/wp-content/uploads/2016/06/main_img-awards.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    filter: brightness(100%)
+  }
+
+.appName{
+    font-size: 250px;
+    font-family: Tangerine;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.content{
+    display: flex;
+}
+
+
+form {
+    display: grid;
+    flex: column;
+}
