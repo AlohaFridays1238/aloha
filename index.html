@@ -3,31 +3,41 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel=“stylesheet”>
     <title>Aloha</title>
   </head>
   <body>
 <header>
-</header>   
+  <h1 class="appName">Aloha 'Oe</h1>
+</header>
 <main class="content">
-    <div>
-        <h1 class="appName">Aloha 'Oe | </h1>
-    </div>
-    <section class="rightSideText">
-        <p>Dreaming of a beach vacation, but can't get away? Don't fret, esacape to any beach on the interwebz with "Aloha 'Oe".</p>
+  <div class="leftSide">
+    <section class="choices">
+        <p class="para">Dreaming of a beach vacation, but can't get away? Don't fret, esacape to any beach on the interwebz with "Aloha 'Oe".</p>
         <form name="myForm">
-            <label for="business">Cool Person</label>
-            <select name="people" class = "people" value = "one"></select>
-            <label for="business">Sweet Location</label>
-            <select name="location" class = "location" value = "two">
-            </select>
-            <input type="submit" name="submit" value="Submit" />
+            <div class="personDiv">
+              <label for="business">Cool Person</label>
+              <select name="people" class="people">
+              </select>
+            </div>
+            <div class="locationDiv">
+              <label for="business">Sweet Location</label>
+              <select name="location" class = "location">
+              </select>
+            </div>
+            <input class="button" type="submit" value="Submit" name = "submit">
         </form>
     </section>
+  </div>
+  <div class="placeholder" style="position: relative; left: 0; top: 0;">
+    <!-- <img src="https://thumbor.forbes.com/thumbor/960x0/smart/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F447571567%2F960x0.jpg%3Ffit%3Dscale" alt="beach" class="beach">
+    <img src="./assets/alohadog.png" alt="dog" class="dog"> -->
+  </div>
 </main>
+</div>
 <div class = "vactionpicture"></div>
 <script src="function.js"></script>  
 <script src="person.js"></script>
-<script src="form.js"></script>  
+<script src="form.js"></script> 
 </body>
 </html>

@@ -1,4 +1,3 @@
-const alohaVacation = document.getElementsByClassName('vactionpicture')[0]
 const selected = document.getElementsByClassName('location')[0]
 const url = "./beaches.json";
 
@@ -15,7 +14,7 @@ function createVacay(data) {
   })
 }
 
-   fetch(url) 
+  fetch(url) 
     .then(resp => resp.json()) 
   
     .then(function(data) {
