@@ -14,10 +14,13 @@ html {
   }
 
 body {
+}
+
+.container {
     background: url("http://www.sleepsure.co.za/wp-content/uploads/2016/06/main_img-awards.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
-    opacity: .5;
+    opacity: .9;
 }
 .content {
     display: flex;
@@ -33,15 +36,20 @@ body {
     font-family: 'Great Vibes', cursive;
     /* background-color: chartreuse; */
     width: 75%;
+    margin: 0px;
+    padding: 0px;
 }
 .rightSideText {
     width: 25%;
     color: white;
+    margin: 0px;
+    padding: 0px;
 }
 
 .appDescription {
     font-family: 'Great Vibes', cursive;   
-    font-size: 60px; 
+    font-size: 50px; 
+    text-shadow: black 1px 0 10px;
     /* background-color: mediumvioletred; */
 }
 form {
