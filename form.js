@@ -1,9 +1,15 @@
 document.querySelector("form").addEventListener("submit", submitForm);
 const alohaVacation = document.getElementsByClassName('placeholder')[0]
+var canvas = document.querySelector(".placeholder")
 
 function submitForm(event){
     event.preventDefault();
-    // alohaVacation.removeChild(div);
+    
+    if (canvas.hasChildNodes() ){
+        canvas.innerHTML = ''    
+    }
+
+    
 
     var selectedValue = selected.options[selected.selectedIndex];
     var peopleValue = people.options[people.selectedIndex];
@@ -18,14 +24,10 @@ function submitForm(event){
     img1.setAttribute('class', 'dog')
     alohaVacation.append(img1)
 
+    
+}
 
-    // setTimeout(remove, 900)
-    // console.log('aloha',alohaVacation)
-        }
-
-    // function remove () {
-
-    // }
+    
           
 
     
