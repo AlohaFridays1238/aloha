@@ -101,10 +101,13 @@ form {
   top: 0;
   left: 0;
   max-width: 45vw;
+  z-index: -1;
 }
+ 
 .dog {
-  position: absolute;
-  bottom: 20px;
-  left: 60px;
+  position: relative;
+  top: -275px;
+  left: 100px;
   max-width: 30vw;
 }
+
